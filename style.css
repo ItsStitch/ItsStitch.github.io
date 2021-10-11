@@ -4,21 +4,20 @@ body {
 
 .header {
    background: white; 
-   width: 60%;
-   padding: 10%;
    margin-top: 30px;
    border-radius: 20px;
    padding: 10px;
    text-align: center;
-   background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
-   color: #426696;
-   min-height: 80vh;
-   width: 60%;
+   background-color: rgba(0 ,0, 0, 0);
+   min-height: 90vh;
+   width: 50%;
+   color: white;
 }
 
 
 #Titulo2 {
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 #Titulo {
@@ -28,8 +27,7 @@ body {
 p {
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: 'Oswald', sans-serif;
-} 
+    font-family: 'Roboto', sans-serif;} 
 
 header {
     min-height: 100vh;
@@ -60,14 +58,5 @@ html,body {
     #videoBG { 
         width:auto;
         height: 100%;
-    }
-}
-@media (max-width: 767px) {
-    #videoBG {
-        display: none;
-    }
-    body {
-        background: url('poster.jpg');
-        background-size: cover;
     }
 }
